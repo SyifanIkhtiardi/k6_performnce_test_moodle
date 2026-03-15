@@ -1,0 +1,19 @@
+# k6 test output
+*.log
+results/
+reports/*.json
+reports/*.csv
+
+# Data — do NOT commit real credentials
+data/users.json
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes (if mounted locally)
+grafana-data/
+influxdb-data/
